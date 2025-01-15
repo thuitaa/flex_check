@@ -9,15 +9,12 @@
 
 body {
     font-family: "Roboto", sans-serif;
-}
-
-header {
     /* linear-gradient(rgba(246, 3, 3, 0.383), rgba(195, 102, 48, 0.589)), */
-    background: linear-gradient(rgba(24, 22, 22, 0.383), rgba(204, 104, 86, 0.589)),url("./images/bg.jpg");
+    background: url("images/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100vh;
+    height: 100%;
     padding: 2rem 5rem;
 }
 nav {
@@ -104,4 +101,33 @@ form button:hover {
     color: rgb(190, 47, 47);
     cursor: pointer;
 }
+.About {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-self: flex-end;
+    
+}
+.farmers {
+        display: inline-block;
+        height: auto;
+        width: auto;
+        color: #fff;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 10px;
+        }
+
+        .animals {
+            display:inline-block ;
+                    height: auto;
+                        width: auto;
+                flex-wrap: wrap;
+                justify-content: center;
+                gap: 10px;
+        }
+
+
+
+    
 
