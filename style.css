@@ -9,14 +9,18 @@
 
 body {
     font-family: "Roboto", sans-serif;
+}
+
+header {
     /* linear-gradient(rgba(246, 3, 3, 0.383), rgba(195, 102, 48, 0.589)), */
-    background: url("images/bg.jpg");
+    background: linear-gradient(rgba(24, 22, 22, 0.383), rgba(204, 104, 86, 0.589)), url("./images/bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    height: 100%;
+    height: 100vh;
     padding: 2rem 5rem;
 }
+
 nav {
     /* width: 90%; */
     margin: auto;
@@ -27,7 +31,7 @@ nav {
 }
 
 a {
-    text-decoration: none;   
+    text-decoration: none;
 }
 
 li {
@@ -86,7 +90,8 @@ input[type=text]::placeholder {
 }
 
 form button {
-    background-color: rgb(190, 47, 47);;
+    background-color: rgb(190, 47, 47);
+    ;
     color: #fff;
     padding: 1.5rem 7rem;
     font-size: 1.5rem;
@@ -101,6 +106,7 @@ form button:hover {
     color: rgb(190, 47, 47);
     cursor: pointer;
 }
+
 .About {
     display: flex;
     justify-content: center;
@@ -108,25 +114,23 @@ form button:hover {
     align-self: flex-end;
     
 }
-.farmers {
-        display: inline-block;
-        height: auto;
-        width: auto;
-        color: #fff;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap: 10px;
-        }
 
-        .animals {
-            display:inline-block ;
-                    height: auto;
-                        width: auto;
-                flex-wrap: wrap;
-                justify-content: center;
-                gap: 10px;
-        }
+.animals {
+    background-color: aqua;
+    display: flexbox;
+}
 
+.goats img {
+    border-radius: 10px;
+}
+
+.chickens img {
+    border-radius: 10px;
+}
+
+.goats img {
+    border-radius: 10px;
+}
 
 
     
